@@ -1,0 +1,53 @@
+body {
+  font-family: 'Crete Round', serif;
+}
+#main li {
+  list-style: none;
+  padding-bottom: 0.8em;
+}
+h1 {
+  width: 100%;
+  border-bottom: 1px solid #111;
+}
+#main h1+ul {
+  border-bottom: 1px solid #111;
+}
+
+
+@media screen {
+
+body {
+  margin: 0px;
+  position: relative;
+  font-family: 'Crete Round', serif;
+  color: #111;
+background-image: url(../images/heavy-noise.png), linear-gradient(left , rgb(163,124,95) 0%, rgb(148,105,59) 18%, rgb(0,0,0) 20%);
+background-image: url(../images/heavy-noise.png), -o-linear-gradient(left , rgb(163,124,95) 0%, rgb(148,105,59) 15%, rgb(0,0,0) 20%);
+background-image: url(../images/heavy-noise.png), -moz-linear-gradient(left , rgb(163,124,95) 0%, rgb(148,105,59) 15%, rgb(0,0,0) 20%);
+background-image: url(../images/heavy-noise.png), -webkit-linear-gradient(left , rgb(163,124,95) 0%, rgb(148,105,59) 15%, rgb(0,0,0) 20%);
+background-image: url(../images/heavy-noise.png), -ms-linear-gradient(left , rgb(163,124,95) 0%, rgb(148,105,59) 18%, rgb(0,0,0) 20%);
+
+background-image: url(../images/heavy-noise.png), -webkit-gradient(
+	linear,
+	left top,
+	right top,
+	color-stop(0, rgb(163,124,95)),
+	color-stop(0.14, rgb(148,105,59)),
+	color-stop(0.15, rgb(0,0,0))
+);
+}
+#main {
+  position: absolute;
+  left: 15%;
+  height: 100%;
+  padding-left: 25px;
+  padding-right: 20%;
+background-color:#f7f6df;
+background-image: url(../images/light-noise.png), -moz-radial-gradient(50% 50%, circle cover, #f7f6df, #dbd8ba 80%);
+background-image: url(../images/light-noise.png), -webkit-radial-gradient(50% 50%, circle cover, #f7f6df, #dbd8ba 80%);
+background-image: url(../images/light-noise.png), -o-radial-gradient(50% 50%, circle cover, #f7f6df, #dbd8ba 80%);
+background-image: url(../images/light-noise.png), -ms-radial-gradient(50% 50%, circle cover, #f7f6df, #dbd8ba 80%);
+background-image: url(../images/light-noise.png), radial-gradient(50% 50%, circle cover, #f7f6df, #dbd8ba 80%);
+}
+
+}
