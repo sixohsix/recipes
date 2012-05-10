@@ -4,7 +4,7 @@ Miso Soup
 
 + 1 tsp. bonito flakes
 + 1 sheet seaweed
-+ 2. tbsp. miso paste
++ 2 tbsp. miso paste
 + udon noodles
 + 4 spring onions, chopped
 + 1.5 c. water
